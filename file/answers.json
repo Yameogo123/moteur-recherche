@@ -1,0 +1,13 @@
+{
+    "answers":[
+        {
+            "rep":"hi, coucou, hello"
+        },
+        {
+            "rep":"Menu:\n 1- Give the program\n 2- Give the time\n 3- Show the corpus authors list \n 4- Give corpus documents list\n 5- Give document thanks to key words \n 6- Put the authors name to get his stat. You can list the authors before \n 7- Display entire document content by giving only the title \n 8- Get corpus statistics"
+        },
+        {
+            "rep": "specify what you are looking for"
+        }
+    ]   
+}

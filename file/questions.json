@@ -1,0 +1,25 @@
+{
+    "questions":[
+        {
+            "question":"hello how are you good morning evening afternoon coucou hi"
+        },
+        {
+            "question":"give what can i do for you is your program menu show me how work"
+        },
+        {
+            "question":"give see know me current can i have the what time is it hour"
+        },
+        {
+            "question":"what can i see have is show authors give list of all what are the different"
+        },
+        {
+            "question":"give can i see doc documents document with about show me key words"
+        },
+        {
+            "question":""
+        },
+        {
+            "question":"give have see general stat statistics summary of doc documents in corpus"
+        }
+    ]
+}
