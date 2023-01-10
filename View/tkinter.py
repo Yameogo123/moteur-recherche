@@ -29,11 +29,11 @@ with open('file/aut.pkl', 'rb') as f:
  
 
 def View():
-    LARGEUR = 900
+    LARGEUR = 1100
     HAUTEUR = 530
     #window
     fenetre= Tk()
-    fenetre.geometry("1000x600")
+    fenetre.geometry("1200x600")
     fenetre.title("search Engine AYMAX")
     fenetre.resizable(width=TRUE, height=TRUE)
     #canvas
@@ -113,25 +113,22 @@ def View():
     
     # input field
     champ = Text(fenetre, bd=0, bg="white", width="100", height="10", font="Arial")
-    champ.place(x=50, y=545, height=30, width=300)
+    champ.place(x=50, y=545, height=30, width=400)
     #Create Chat window
     ChatLog = Text(canvas, bd=0, bg="white", height="530", width="800", font="Arial", wrap=WORD)
     ChatLog.config(state=DISABLED)
     
-    
     #Bind scrollbar to Chat window
     scrollbar = Scrollbar(canvas, command=ChatLog.yview, cursor="heart")
     ChatLog['yscrollcommand'] = scrollbar.set
-    scrollbar.place(x=870, y=6, height=500)
+    scrollbar.place(x=1080, y=6, height=500)
     ChatLog.place(x=15, y=8, height=HAUTEUR, width=LARGEUR)
     # search button
     recherche = Button(fenetre, text="Search", command=saisie, bd=0, bg="#32de97", activebackground="#3c9d9b", fg='#ffffff')
-    recherche.place(x = 600 , y = 550 , width = 100)
+    recherche.place(x = 700 , y = 550 , width = 150)
     # Quit button
     quitte = Button(fenetre, text = 'Quit', bd=0, bg="red", activebackground="#3c9d9b", fg='#ffffff',command = quitter)
-    quitte.place(x = 750 , y = 550 , width = 100)
+    quitte.place(x = 900 , y = 550 , width = 150)
     # launch all
     fenetre.mainloop()
-    
-    
     
