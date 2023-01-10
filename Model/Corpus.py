@@ -204,10 +204,11 @@ class Corpus:
         if sum(Q2)==0:
             return []
         mat= self._matdoc
+        #cosinus similarity
         result= mat@Q2
+        result= result /(len(mat[0])*len(Q2))
         #id=np.argmax(result)
         arg=np.argsort(result)
-        return arg[-3:]
     
     #score obtenu avec la méthodee BMI
     def scoreBMI(self, mots):
