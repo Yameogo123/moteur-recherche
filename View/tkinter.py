@@ -124,10 +124,10 @@ def View():
     scrollbar.place(x=1080, y=6, height=500)
     ChatLog.place(x=15, y=8, height=HAUTEUR, width=LARGEUR)
     # search button
-    recherche = Button(fenetre, text="Search", command=saisie, bd=0, bg="#32de97", activebackground="#3c9d9b", fg='#ffffff')
+    recherche = Button(fenetre, text="Search", command=saisie, bd=0, bg="#32de97", activebackground="#3c9d9b", fg='black')
     recherche.place(x = 700 , y = 550 , width = 150)
     # Quit button
-    quitte = Button(fenetre, text = 'Quit', bd=0, bg="red", activebackground="#3c9d9b", fg='#ffffff',command = quitter)
+    quitte = Button(fenetre, text = 'Quit', bd=0, bg="red", activebackground="#3c9d9b", fg='black',command = quitter)
     quitte.place(x = 900 , y = 550 , width = 150)
     # launch all
     fenetre.mainloop()
