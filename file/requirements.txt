@@ -1,0 +1,7 @@
+xmltodict
+nltk
+tkinter
+json
+praw
+urllib
+
